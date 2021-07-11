@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/parallax.css">
+    <!-- JS Script -->
+    <script type='text/javascript' src='http://d3js.org/d3.v3.min.js'></script>
+    <script type='text/javascript' src='http://d3js.org/topojson.v1.min.js'></script>
+    <script type="text/javascript" src="js/planetaryjs.min.js"></script>
+    <script src="js/vue.js"></script>
+    <title>About you</title>
+</head>
+<body>
+    
+    <!-- Globe et etoiles -->
+    <div style="text-align: center;">
+        <canvas id='rotatingGlobe' width='400' height='400' style='width: 400px; height: 400px; cursor: move;'></canvas>
+    </div>
+    <div id='title'></div>
+    <div id='stars'></div>
+    <div id='stars2'></div>
+    <div id='stars3'></div>
+    <!-- Fin Globe et etoiles-->
+    <div style="text-align: center;">
+        <h1 style="color:antiquewhite; font-family:courier,arial,helvetica;">HELLO WORLD !</h1>
+        <button class="button button1" onclick="window.location.href='main.html';">
+            Start
+          </button>
+    </div>
+</body>
+<script type="text/javascript" src="js/globe.js"></script>
+
+</html>
